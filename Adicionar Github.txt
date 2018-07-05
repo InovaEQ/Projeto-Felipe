@@ -1,0 +1,9 @@
+1- git status (verificar se algum arquivo foi modificado)
+2- git add pasta/nome do arquivo.extensão
+3- git commit -m "comentario que quiser colocar de alteração"
+4- git push (baixa do computador para o github)
+5- git status (verificar se o arquivo foi modificado)
+
+
+6- git fetch (documentos compatíveis com github), baixa os arquivos do github, sem sobrescrever os arquivos locais.
+7- git pull (baixa os arquivo do github sobrescrevendo os arquivos locais - do computador)

@@ -66,7 +66,7 @@ void loop()
 {
   // Aguarda 2 segundos entre as medicoes
   delay(2000);
-  
+
   // Leitura da umidade
   float h = dht.readHumidity();
   // Leitura da temperatura (Celsius)
@@ -92,10 +92,12 @@ Serial.println(" %");
 //  lcd.setCursor(8,1);
 //  lcd.print(h);
 
-   ValorLido = analogRead(LDR);
    ValorLidoCO = analogRead(sensor_CO);
+   ValorLido = analogRead(LDR);
       Serial.print("Valor lido pelo LDR = ");
       Serial.println(ValorLido);
+      Serial.print ("Valor sensor fumaca: ");
       Serial.println (ValorLidoCO);
-      delay(2000);
+      Serial.println (" ");
+      delay(1000);
 }
