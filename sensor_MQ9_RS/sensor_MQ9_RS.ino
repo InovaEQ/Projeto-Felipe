@@ -3,7 +3,7 @@ void setup() {
 }
  
 void loop() {
-  
+  //int fuckcorrea
   float sensor_volt;
   float RS_gas; // Get value of RS in a GAS
   float ratio; // Get ratio RS_GAS/RS_air
